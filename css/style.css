@@ -58,6 +58,17 @@ a{text-decoration:none}
 .card.quote.featured{border:2px solid var(--teal);grid-column:1/-1}
 .reviews-note{text-align:center;color:#8aa5a3;font-size:13px;margin-top:28px;font-style:italic}
 
+/* Peptide Gel section */
+.peptide-section{background:linear-gradient(135deg,#0c2b2e 0%,#0d6e78 100%);color:#fff}
+.peptide-section h2{color:#fff}
+.peptide-section .section-sub{color:#b8d4d1}
+.peptide-badge{display:inline-block;background:#f5a623;color:#0c2b2e;font-weight:800;font-size:13px;padding:8px 22px;border-radius:999px;letter-spacing:1.5px;text-transform:uppercase;margin:0 auto 18px;display:block;width:fit-content}
+.promo-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
+.promo-card{display:block;border-radius:var(--radius);overflow:hidden;box-shadow:0 16px 48px rgba(0,0,0,.3);transition:.25s}
+.promo-card:hover{transform:scale(1.02)}
+.promo-card img{width:100%;height:auto;display:block}
+@media(max-width:768px){.promo-grid{grid-template-columns:1fr}}
+
 /* Sections */
 .section{max-width:1100px;margin:0 auto;padding:80px 20px}
 .section.alt{background:#f7fcfa}
@@ -92,10 +103,9 @@ a{text-decoration:none}
 .faq details p{padding:0 24px 20px;color:var(--muted)}
 
 /* Final CTA */
-.final-cta{background:linear-gradient(135deg,var(--teal) 0%,var(--teal-dark) 100%);color:#fff;text-align:center;padding:80px 20px}
-.final-cta h2{font-size:clamp(30px,4vw,42px);margin-bottom:12px}
-.final-cta p{opacity:.85;margin-bottom:28px;font-size:17px}
-.final-cta .micro{margin-top:16px;font-size:13px;opacity:.7}
+.final-cta{background:linear-gradient(135deg,var(--teal) 0%,var(--teal-dark) 100%);color:#fff;text-align:center;padding:60px 20px}
+.final-promo-img{max-width:900px;width:100%;border-radius:20px;box-shadow:0 24px 60px rgba(0,0,0,.3);transition:.25s}
+.final-promo-img:hover{transform:scale(1.01)}
 
 /* Footer */
 footer{background:#0c2b2e;color:#9db8b5;padding:44px 20px;font-size:13px}
