@@ -43,6 +43,14 @@ a{text-decoration:none}
 .press-logo{height:64px;width:auto;object-fit:contain;filter:grayscale(20%);opacity:.92}
 .press-text{font-weight:800;color:#5a7a7e;line-height:1.15}
 .press-bi{font-family:Georgia,serif;font-size:19px;letter-spacing:1px}
+.press-tsn-img{height:44px}
+
+/* Testimonial videos */
+.videos-title{text-align:center;font-size:24px;margin:44px 0 24px;color:var(--teal)}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.video-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:0 6px 24px rgba(13,110,120,.08);border:1px solid #eaf3f1}
+.video-card video{width:100%;aspect-ratio:9/16;max-height:480px;background:#0c2b2e;object-fit:contain}
+.video-card p{padding:18px 20px;font-size:14px;color:var(--muted);text-align:center}
 .press-tsn{font-size:38px;font-style:italic;letter-spacing:-1px}
 
 /* Testimonials */
